@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 8px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Links, images, lists, tables. -->
+    <!-- Types of links: internal(locale) and external(global) -->
+    <!-- a = anchor, href = Hypertext Reference -->
+    <!-- Types of path: relative path and absolute path -->
+    <a href="first.html">first</a>
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <hr />
+    <img
+      src="avatarJPG.jpg"
+      alt="Rasm"
+      title="Diyorbek"
+      width="300"
+      height="350"
+    />
+    <img
+      src="https://cdn.educba.com/academy/wp-content/uploads/2019/10/Create-Tables-in-HTML.png.webp"
+      alt="Table"
+    />
+    <hr />
+    <!-- Types of lists: unordered list and ordered list; li = List Item -->
+    <ul>
+      <li>Lorem, ipsum dolor.</li>
+      <li>Lorem, ipsum dolor.</li>
+      <li>
+        <ol type="I">
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Lorem, ipsum dolor.</li>
+        </ol>
+      </li>
+    </ul>
+    <hr />
+    <!-- Table: table head and table body (table footer); tr = table row; th = table head data; td = table data -->
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Full Name</th>
+          <th>Position</th>
+          <th>Salary</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Bill Gates</td>
+          <td>Founder Microsoft</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td colspan="2" rowspan="2">2</td>
+          <td>Steve Jobs</td>
+          <td>Founder Apple</td>
+          <td>1300</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry Page</td>
+          <td>Founder Google</td>
+          <td>1500</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/something" method="POST">
+      <!-- Form elements: label, input, select, option, button, textarea ... -->
+      <label for="username">Username:</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Username kiriting"
+        minlength="5"
+        maxlength="7"
+        autofocus
+      />
+      <br /><br />
+      <!-- Types of input: text, number, email, password, checkbox, radio, range, date, file, tel ... -->
+      <!-- <label for="password">Password:</label>
+      <input type="password" name="password" id="password" />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" />
+      <br /><br />
+      <label for="number">Number:</label>
+      <input
+        type="number"
+        name="number"
+        id="number"
+        placeholder="salom"
+        min="10000"
+        max="100000"
+        step="10000"
+      />
+      <br /><br />
+      <label for="checkbox">checkbox:</label>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <br /><br />
+      <label for="radio1">Erkak:</label>
+      <input type="radio" name="radio" id="radio1" />
+      <label for="radio2">Ayol:</label>
+      <input type="radio" name="radio" id="radio2" />
+      <br /><br />
+      <label for="date">Sana:</label>
+      <input type="date" name="date" id="date" />
+      <br /><br />
+      <label for="file">file:</label>
+      <input type="file" name="file" id="file" />
+      <br /><br /> -->
+      <label for="job">Kasbingiz:</label>
+      <select name="job" id="job">
+        <option value="1">Dasturchi</option>
+        <option value="2">O'qituvchi</option>
+        <option value="3" selected>Haydovchi</option>
+      </select>
+      <br /><br />
+      <label for="textarea">Xabaringiz</label>
+      <textarea name="textarea" id="textarea" cols="20" rows="10"></textarea>
+      <button type="submit">Kirish</button>
+    </form>
+  </body>
+</html>
