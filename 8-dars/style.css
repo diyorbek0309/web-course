@@ -1,0 +1,35 @@
+.title {
+  color: yellow;
+}
+
+#title {
+  color: green;
+}
+
+[aria-disabled] {
+  color: aqua;
+}
+
+* {
+  font-size: 72px;
+}
+
+h1 {
+  color: red;
+}
+
+
+/* Nav Styles */
+
+
+#id_title {
+  color:blue;
+}
+
+/* h1 - Selector (tanlab oluvchi) */
+/* color - Property (xususiyat) 
+red - value (qiymat) */
+
+/* Types of Selectors: tag, class, id, attribute, universal */
+
+/* Inline styling > ID selector > Class and attribute Selector > Tag Selector */
