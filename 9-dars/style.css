@@ -54,3 +54,32 @@ div {
 .general div ~ p {
   color: orange;
 }
+
+/* Combined Selectors */
+
+.combined_selectors h1.active {
+  background-color: red;
+}
+
+.combined_selectors input[type="text"] {
+  background-color: green;
+}
+
+/* Multiple Classes */
+
+.text-italic {
+  font-style: italic;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-red {
+  color: red;
+  color: green;
+}
