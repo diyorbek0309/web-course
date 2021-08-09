@@ -1,0 +1,131 @@
+/* Images */
+img {
+  border-radius: 30px;
+  opacity: 1; /* 0 - 1 (0,1 qadam) */
+}
+
+.rounded {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+/* Gradient */
+
+.linear_gradient {
+  width: 600px;
+  height: 400px;
+  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+}
+
+.radial_gradient {
+  width: 400px;
+  height: 600px;
+  background-image: radial-gradient(red, blue);
+}
+
+h2 {
+  /* color: #ff0000; hexadecimal*/
+  color: rgb(72, 255, 0);
+  /* color: rgba(255, 0, 0, 0.8); */
+}
+
+/* Forms */
+
+input,
+select,
+textarea {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+}
+
+input[type="text"] {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(181, 250, 181);
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #0f0;
+}
+
+select {
+  padding: 6px 10px;
+  background-color: rgb(181, 250, 181);
+  border: none;
+}
+
+textarea {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(181, 250, 181);
+  color: #fff;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  background-color: rgb(4, 99, 4);
+  border: none;
+}
+
+button:hover {
+  background-color: #fff;
+  color: rgb(4, 99, 4);
+  border: 2px solid rgb(4, 99, 4);
+}
+
+/* Percentage */
+
+.fixed-box {
+  position: fixed;
+  width: 50%;
+  height: 200px;
+  background-color: red;
+}
+
+.wrap {
+  width: 500px;
+  height: 240px;
+  background-color: #00f;
+  position: relative;
+  padding: 60px;
+}
+
+.absolute-box {
+  position: absolute;
+  width: 25%; /* (60 + 500 + 60)/2 = 310 */
+  height: 200px;
+  background-color: red;
+}
+
+.relative-box {
+  width: 50%;
+  background-color: green;
+  height: 200px;
+}
+
+html {
+  font-size: 12px;
+}
+
+h1 {
+  background-color: #00f;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 1rem;
+}

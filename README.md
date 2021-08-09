@@ -17,8 +17,8 @@
 3. Box model, margin collapsing, width, height, max-width, max-height, min-width and min-height.
 4. Display. text-align, vertical-align, float, text-decoration, pseudo-classes in CSS.
 5. Position, z-index, overflow, background.
-6. Styling images(gradient, filtering). Styling forms. Units: percent, em, rem, vw and vh.
-7. About RWD. Media queries, breakpoints.
+6. Styling images(gradient, colors). Styling forms. Units: percent, em, rem.
+7. VW and VH. About RWD. Media queries, breakpoints.
 8. 2D, 3D transforms. Transitions.
 9. Animations, fonts.
 10. Flexbox.
