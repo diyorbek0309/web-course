@@ -1,6 +1,6 @@
 # Web-Course
 
-HTML:
+## HTML:
 
 1. Introduction. More about Web. The structure of HTML document. Sololearn.
 2. Elements and attributes. Headings & paragraphs. Formatting. Comments.
@@ -10,7 +10,7 @@ HTML:
 6. Audio, video and iframe. Layout and Semantics.
 7. Rules of clean code. Simple Project.
 
-CSS:
+## CSS:
 
 1. Introduction. CSS Selectors, Comments and Cascading.
 2. Inheritance, Combinators and Combined Selectors in CSS.
@@ -25,7 +25,7 @@ CSS:
 11. Grid.
 12. Best practises. Practical work.
 
-Bootstrap:
+## Bootstrap:
 
 1. Introduction and Installation. Breakpoints and Containers. Grid System.
 2. Images, tables, form elements and validation.
@@ -33,19 +33,19 @@ Bootstrap:
 4. Background, border, float, interactions and overflow.
 5. Display and Position. Shadows, Sizing.
 
-Git:
+## Git:
 
 1. Introduction. Advanetages of VCS. Using examples.
 
-Practise:
+## Practise:
 
 1. Creating template of portfolio website (Section 1).
 2. Creating template of portfolio website (Section 2).
 3. Creating template of portfolio website (Section 3).
 
-JavaScript
+## JavaScript
 
-JavaScript Basics:
+### JavaScript Basics:
 
 1. Introduction. Variables. Data types. Objects and Arrays.
 2. Functions. Arithmetic operators. Comparison, Equality and Ternary operators.
@@ -62,13 +62,13 @@ JavaScript Basics:
 13. OOP Basics.
 14. Solving simple problems in JS.
 
-JavaScript DOM:
+### JavaScript DOM:
 
 15. What is DOM? Working with Selectors.
 16. Manipulating DOM elements. AddEventlistener.
 17. Practise working with DOM.
 
-Practise:
+## Practise:
 
 1. Setting up environment and folder structure for new project.
 2. Making HTML/CSS template of new project (Section 1).
