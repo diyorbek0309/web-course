@@ -1,0 +1,129 @@
+.transform1 {
+  background-color: #00f;
+  width: 100px;
+  height: 100px;
+  /* transform: rotate(-30deg); */
+  /* transform: translate(40px, 50px); */
+  margin-left: 40px;
+  margin-top: 40px;
+  /* transform: scale(0.5); */
+  /* transform: skewX(30deg);
+  transform: skewY(30deg); */
+  /* transform: skew(30deg, 0); */
+  /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+}
+
+.transform2 {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 50px;
+  /* transform: rotateY(360deg); */
+  /* transform: rotateY(30deg); */
+  /* transform: rotateZ(30deg); */
+  /* transform: rotate3d(1, 2, -1, 30deg); */
+  /* transform: rotate3d(1, 1, 1, 45deg); */
+  animation: rotateAnimation infinite 4s;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotateY(45deg);
+  }
+  to {
+    transform: rotateY(225deg);
+  }
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  font-size: 16px;
+  background-color: red;
+  transition: all linear 10s;
+  transition-delay: 2s;
+}
+
+.box:hover {
+  width: 400px;
+  height: 300px;
+  background-color: green;
+  font-size: 32px;
+  color: #fff;
+}
+
+.shadow {
+  margin: 50px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 20px rgb(68, 30, 30);
+}
+
+.shadow h1 {
+  /* text-shadow: 0px 0px 4px red; */
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Neumorphism */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f3f0f1;
+}
+body .button {
+  width: 400px;
+  height: 100px;
+  background: #f3f0f1;
+  position: relative;
+  background: #f3f0f1;
+  margin-bottom: 25px;
+  border-radius: 32px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+body .button span {
+  line-height: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  font-weight: semibold;
+}
+body .button:nth-child(1) {
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+    6px 6px 10px rgba(0, 0, 0, 0.3);
+  color: #1008ff;
+}
+body .button:nth-child(1):hover {
+  opacity: 0.3;
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+    6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+body .button:nth-child(1):active {
+  opacity: 1;
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+    inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+  color: #79e3b6;
+}
+body .button:nth-child(2) {
+  opacity: 0.3;
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+    6px 6px 10px rgba(0, 0, 0, 0.2);
+  color: #1a13e0;
+}
+body .button:nth-child(3) {
+  box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.5),
+    inset 8px 8px 16px rgba(0, 0, 0, 0.1);
+  color: #79e3b6;
+}
+body .button:nth-child(3):hover {
+  opacity: 1;
+  box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8),
+    6px 6px 10px rgba(0, 0, 0, 0.3);
+}

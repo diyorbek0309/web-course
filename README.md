@@ -19,7 +19,7 @@
 5. Position, z-index, overflow, background.
 6. Styling images(gradient, colors). Styling forms. Units: percent, em, rem.
 7. VW and VH. About RWD. Media queries, breakpoints.
-8. 2D, 3D transforms. Transitions.
+8. 2D, 3D transforms. Transitions. Shadow.
 9. Animations, fonts.
 10. Flexbox.
 11. Grid.
