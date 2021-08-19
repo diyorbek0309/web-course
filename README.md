@@ -22,8 +22,11 @@
 8. 2D, 3D transforms. Transitions. Shadow.
 9. Animations, fonts.
 10. Flexbox.
-11. Grid.
-12. Best practises. Practical work.
+11. Grid. Best practises. Practical work.
+
+## Git:
+
+1. Introduction. Advanetages of VCS. Using examples.
 
 ## Bootstrap:
 
@@ -32,10 +35,6 @@
 3. Nav, tab, navbar, button, carousel, collapse, dropdown and list groups.
 4. Background, border, float, interactions and overflow.
 5. Display and Position. Shadows, Sizing.
-
-## Git:
-
-1. Introduction. Advanetages of VCS. Using examples.
 
 ## Practise:
 
@@ -78,4 +77,4 @@
 6. Making dynamic parts of new project (Section 2).
 7. Optimizing and Deploying new project to Netlify.
 
-#html #css #bootstrap #git #js #dom #themesss
+#html #css #bootstrap #git #js #dom #themes
