@@ -22,7 +22,7 @@
 8. 2D, 3D transforms. Transitions. Shadow.
 9. Animations, fonts.
 10. Flexbox.
-11. Grid. Best practises. Practical work.
+11. Grid. Best practises. BEM. Practical work.
 
 ## Git:
 
