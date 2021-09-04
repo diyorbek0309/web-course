@@ -33,8 +33,8 @@
 1. Introduction and Installation. Breakpoints and Containers. Grid System.
 2. Images, tables, form elements and validation.
 3. Nav, tab, navbar, button, carousel, collapse, dropdown and list groups.
-4. Background, border, float, interactions and overflow.
-5. Display and Position. Shadows, Sizing.
+4. Spacing, text classes, vertical align, visibility, background, border.
+5. Display and Position. Shadows, Sizing and other CSS frameworks.
 
 ## Practise:
 
