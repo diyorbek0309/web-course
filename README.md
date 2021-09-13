@@ -46,8 +46,8 @@
 
 ### JavaScript Basics:
 
-1. Introduction. Variables. Data types. Objects and Arrays.
-2. Functions. Arithmetic operators. Comparison, Equality and Ternary operators.
+1. Introduction. Variables. Data types. Arithmetic operators. Comparison, Equality and Ternary operators.
+2. Functions. Objects and Arrays.
 3. Working with Booleans. If else and switch case.
 4. Loops: for, for of, for in, while and do while. Break and continue.
 5. JS Basics Practise.
