@@ -48,7 +48,7 @@
 
 1. Introduction. Variables. Data types. Arithmetic operators. Comparison, Equality and Ternary operators.
 2. Functions. Objects and Arrays.
-3. Working with Booleans. If else and switch case.
+3. Working with Booleans. If else and switch case. String.
 4. Loops: for, for of, for in, while and do while. Break and continue.
 5. JS Basics Practise.
 6. Factory and Constructor Functions. Primitive and Reference types.
