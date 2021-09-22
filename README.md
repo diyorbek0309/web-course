@@ -51,10 +51,10 @@
 3. Working with Booleans. If else and switch case. String.
 4. Loops: for, for of, for in, while and do while. Break and continue.
 5. JS Basics Practise.
-6. Factory and Constructor Functions. Primitive and Reference types.
-7. Working with Objects. Math and String.
-8. Working with Arrays. Array methods.
-9. Practise with Math, String, Array and Objets.
+6. Working with Objects. Math and String.
+7. Working with Arrays. Array methods.
+8. Practise with Math, String, Array and Objets.
+9. Factory and Constructor Functions. Primitive and Reference types.
 10. More about Functions. Spread operator and Rest Parameter. Getter and Setter.
 11. Try/Catch. Scopes. Let, var and const. this keyword.
 12. Promise. Callback. async/await.
