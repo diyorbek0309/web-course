@@ -88,3 +88,49 @@ function fizzBuzz(n) {
 }
 
 // console.log(fizzBuzz(15));
+
+const people = [
+  { name: "Grand parent", id: 1, parent: 0 },
+  { name: "Grand parent 2", id: 6, parent: 0 },
+  { name: "Parent", id: 2, parent: 1 },
+  { name: "Parent 2", id: 3, parent: 1 },
+  { name: "Parent 2", id: 3, parent: 1 },
+  { name: "Child", id: 4, parent: 2 },
+];
+const peopleTree = [
+  {
+    name: "Grand parent",
+    id: 1,
+    parent: 0,
+    children: [
+      {
+        name: "Parent",
+        id: 2,
+        parent: 1,
+        children: [
+          {
+            name: "Child",
+            id: 4,
+            parent: 2,
+            children: [{ name: "Parent 3", id: 3, parent: 4 }],
+          },
+        ],
+      },
+      { name: "Parent 2", id: 3, parent: 1 },
+    ],
+  },
+  { name: "Grand parent 2", id: 1, parent: 0 },
+];
+
+// const flatArrayToTree = (arr) => {
+//   let result = [];
+//   let sortedArray = arr.sort((a, b) => a.parent > b.parent);
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i].parent !== arr[i+1].parent) {
+      
+//     }
+//   }
+// };
+
+// flatArrayToTree(people);
