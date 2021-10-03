@@ -54,8 +54,8 @@
 6. Working with Objects. Math and String.
 7. Working with Arrays. Array methods.
 8. Practise with Math, String, Array and Objets.
-9. Factory and Constructor Functions. Primitive and Reference types.
-10. More about Functions. Spread operator and Rest Parameter. Getter and Setter.
+9. Factory and Constructor Functions. Primitive and Reference types. More about Functions. 
+10. Spread operator and Rest Parameter. Getter and Setter.
 11. Try/Catch. Scopes. Let, var and const. this keyword.
 12. Promise. Callback. async/await.
 13. OOP Basics.
