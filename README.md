@@ -57,7 +57,7 @@
 9. Factory and Constructor Functions. Primitive and Reference types. More about Functions. 
 10. Spread operator and Rest Parameter. Getter and Setter.
 11. Try/Catch. Scopes. Let, var and const. this keyword.
-12. Promise. Callback. async/await.
+12. Callback. Promise. async/await.
 13. OOP Basics.
 14. Solving simple problems in JS.
 
