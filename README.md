@@ -58,13 +58,13 @@
 10. Spread operator and Rest Parameter. Getter and Setter.
 11. Try/Catch. Scopes. Let, var and const. this keyword.
 12. Synchronous and asynchronous JS. Callback. Promise. async/await.
-13. OOP Basics.
-14. Solving simple problems in JS.
+13. OOP Basics. Solving simple problems in JS.
 
 ### JavaScript DOM:
 
-15. What is DOM? Working with Selectors.
-16. Manipulating DOM elements. AddEventlistener.
+14. What is DOM? Working with Selectors.
+15. Manipulating DOM elements. AddEventlistener.
+16. Practise working with DOM.
 17. Practise working with DOM.
 
 ## Practise:
