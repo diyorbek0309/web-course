@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.wrap {
+  text-align: center;
+}
+
+.title {
+  margin: 50px 0;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+input {
+  width: 344px;
+  padding: 10px;
+  border: 2px solid aqua;
+  border-radius: 5px;
+  outline-color: green;
+  font-size: 28px;
+  text-align: right;
+}
+
+.buttons_wrap {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  column-gap: 8px;
+  row-gap: 8px;
+}
+
+.button {
+  font-size: 32px;
+  padding: 5px 0;
+  background-color: aqua;
+  color: #fff;
+  border-radius: 6px;
+  text-align: center;
+}

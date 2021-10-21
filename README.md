@@ -54,7 +54,7 @@
 6. Working with Objects. Math and String.
 7. Working with Arrays. Array methods.
 8. Practise with Math, String, Array and Objets.
-9. Factory and Constructor Functions. Primitive and Reference types. More about Functions. 
+9. Factory and Constructor Functions. Primitive and Reference types. More about Functions.
 10. Spread operator and Rest Parameter. Getter and Setter.
 11. Try/Catch. Scopes. Let, var and const. this keyword.
 12. Synchronous and asynchronous JS. Callback. Promise. async/await.
@@ -62,8 +62,8 @@
 
 ### JavaScript DOM:
 
-14. What is DOM? Working with Selectors.
-15. Manipulating DOM elements. AddEventlistener.
+14. What is DOM? Working with Selectors. Manipulating DOM elements. AddEventlistener.
+15. Practise working with DOM.
 16. Practise working with DOM.
 17. Practise working with DOM.
 

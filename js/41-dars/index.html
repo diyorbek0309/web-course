@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="title" onmouseleave="myFunction()"></h1>
+    <h1 class="class"></h1>
+    <h2 class="class"></h2>
+    <h3 class="class"></h3>
+    <h2></h2>
+
+    <button>Click</button>
+
+    <script>
+      // getElementById(), getElementsByClassName(), getElementsByTagName(), querySelector()
+
+      document.getElementById("title").innerHTML = "<i>Salom</i>";
+      document.getElementsByClassName("class")[2].innerHTML = "Dunyo";
+      let deleted = document.getElementsByTagName("h2")[1];
+      deleted.innerHTML = "H2"; // <h2></h2>
+      document.querySelector(".class").innerHTML = "12345"; // eng birinchisini tanlidi
+      document.querySelectorAll(".class")[2].innerHTML = "12345"; // hammasini tanlidi
+
+      document.getElementsByTagName("h2")[1].style.fontSize = "48px";
+      document.getElementsByTagName("h2")[1].className = "class";
+      // console.log(document.getElementsByTagName("h1")[0].id);
+
+      document.querySelectorAll("h2")[1].setAttribute("id", "test");
+
+      let p = document.createElement("p");
+      p.innerHTML = "Paragraph";
+      p.style.color = "yellow";
+
+      document.body.appendChild(p);
+
+      // Events
+
+      function myFunction() {
+        console.log("clicked");
+        // document.body.removeChild(deleted);
+        // deleted.style.color = "red";
+      }
+
+      function clicked() {
+        console.log("clicked");
+        // document.body.removeChild(deleted);
+        deleted.style.color = "red";
+      }
+
+      document
+        .getElementsByTagName("button")[0]
+        .addEventListener("mouseenter", () => {
+          console.log("Event Listener");
+        });
+
+      document.getElementsByTagName("button")[0].onclick = clicked;
+    </script>
+  </body>
+</html>
+
+<!-- DOM - Document Object Model -->
